@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+}
+
+.show-result {
+    display: flex;
+    /*centra elementos no centro*/
+    justify-content: center;
+    align-items: center;
+}
+
+
+.show-result {
+    
+    margin-top: 20px;
+    padding: 10px;
+
+    font-weight: 100;
+    font-size: 25px;
+
+    border: 1px solid blue;
+}
+
+.result-number {
+    width: 400px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: right;
+    border: 1px solid red;
+
+    color: white;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid purple;
+    
+}
+
+.line-one, .line-two, .line-three, .line-four, .line-five {
+    width: 400px;
+    padding: 10px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: lef*/
+    justify-content: left;
+    
+    border: 1px solid white;
+}
+
+.clear-all, .delete, .percentage, .division, .seven, .eight, .nine, .multiplication, 
+.four, .five, .six, .minus, .one, .two, .three, .plus, .minus-plus, .zero, .comma, .equal{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    
+    margin: 40px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+/*configurações dos botões*/
+.clear-all__button, .delete__button, .percentage__button, .seven__buttton, .eight__button,
+.nine__button, .four__button, .five__button, .six__button, .one__button, .two__button, .three__button,
+.minus-plus__button, .zero__button, .comma__button {
+    color: white;
+    background-color: rgb(43, 40, 40);
+
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 100%;
+   
+
+    font-weight: 100;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    
+    transition: 0.2s;
+
+    letter-spacing: 2px;
+}
+
+.clear-all__button, .delete__button {
+    font-size: 17px;
+}
+
+.clear-all__button {
+    color: red;
+}
+
+
+.clear-all__button:hover, .delete__button:hover, .percentage__button:hover, .seven__buttton:hover, .eight__button:hover,
+.nine__button:hover, .four__button:hover, .five__button:hover, .six__button:hover, .one__button:hover, .two__button:hover, .three__button:hover,
+.minus-plus__button:hover, .zero__button:hover, .comma__button:hover {
+    filter: brightness(1.90);
+}
+
+/*botões de operações com cores mais fortes*/
+.equal__button, .division__button, .multiplication__button, .minus__button, .plus__button {
+    color: white;
+    background-color: rgb(68, 141, 108);
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+   
+    font-weight: 100;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    
+    transition: 0.2s;
+
+    letter-spacing: 2px;
+
+}
+
+.equal__button {
+    background-color: rgb(2, 46, 27);
+}
+
+.equal__button:hover {
+    filter: brightness(1.99);
+}
+
+.division__button:hover, .multiplication__button:hover, .minus__button:hover, .plus__button:hover {
+    filter: brightness(1.40);
+}
