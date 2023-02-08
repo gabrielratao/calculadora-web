@@ -135,6 +135,15 @@
     background-color: rgb(2, 46, 27);
 }
 
+/*diminuir o tamanho dos botões quando são clicados*/
+.division__button:active, .multiplication__button:active, .minus__button:active, .plus__button:active, .clear-all__button:active, .delete__button:active, .percentage__button:active, .seven__buttton:active, .eight__button:active,
+.nine__button:active, .four__button:active, .five__button:active, .six__button:active, .one__button:active, .two__button:active, .three__button:active,
+.minus-plus__button:active, .zero__button:active, .comma__button:active, .equal__button:active {
+    transform: scale(0.90);
+}
+
+
+
 .equal__button:hover {
     filter: brightness(1.99);
 }
@@ -142,3 +151,7 @@
 .division__button:hover, .multiplication__button:hover, .minus__button:hover, .plus__button:hover {
     filter: brightness(1.40);
 }
+
+
+
+
